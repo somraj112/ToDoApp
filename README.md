@@ -1,16 +1,76 @@
-<<<<<<< HEAD
-# To-do-App-React
-=======
-# React + Vite
+# 📝 ToDoApp - React Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive ToDo application built using **React** and **Vite**. This app allows users to manage their daily tasks efficiently with features like categorization, priority setting, due dates, filtering, and dark mode toggle.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ **Add, Edit, Delete Tasks**
+- 🔀 **Filter by Status & Priority**
+- 📅 **Set Due Dates**
+- 📂 **Organize by Category** – Personal, Work, Study
+- 🌗 **Dark Mode Support**
+- 🧠 **Smart Sorting** – by Date, Priority, or Category
+- 📋 **Clean and User-friendly UI**
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> b6a9d79 (Initial commit: To-do App)
+- ⚛️ React (with Vite)
+- 🎨 CSS3
+- 🧠 useState, useEffect (React Hooks)
+- 💡 Functional Components
+
+## 📸 Screenshots
+Light Mode:
+<img width="1507" alt="Screenshot 2025-04-11 at 11 55 15 PM" src="https://github.com/user-attachments/assets/48a3708b-a9e5-42f9-8f72-f18dbc818c81" />
+Dark Mode:
+<img width="1507" alt="Screenshot 2025-04-11 at 11 55 22 PM" src="https://github.com/user-attachments/assets/c9aa94b9-6429-4dde-89c5-75f6e74f1088" />
+
+## 📦 Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/somraj112/To-do-App-React.git
+cd To-do-App-React
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+
+3. **Run the App**
+```bash
+npm run dev
+```
+
+4. **Build for Production**
+```bash
+npm run build
+```
+
+## 🧩 Folder Structure
+
+```
+src/
+│
+├── components/
+│   ├── TaskForm.jsx
+│   ├── TaskList.jsx
+│   └── DarkModeToggle.jsx
+│
+├── App.jsx
+└── main.jsx
+```
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!  
+Feel free to open a pull request or raise an issue.
+
+## 📃 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Made with ❤️ by [Somraj Nandi](https://github.com/somraj112)
